@@ -47,7 +47,7 @@ img {
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-    outline: 1px solid red;
+    /*outline: 1px solid red;*/
 }
 /*------------------------------HEADER--------------------------------*/
 
@@ -127,6 +127,8 @@ img {
 /* ------------------------"HERO----------------*/
 .hero {
     background-color: var(--second-background-color);
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 
@@ -177,7 +179,6 @@ img {
 }
 .advantages {
     background-color: var(--main-background-color);
-    padding-bottom: 94px;
     padding-top: 94px;
 }
 .advantages-item:not(:first-child) {
@@ -332,7 +333,9 @@ margin-left: 30px;
 .tel-link:hover {
     color: var(--accent-colour);
 }
-
+.footer-mail, .footer-tel {
+    margin-top: 9px;
+}
 
 /*----------------------------PORTFOLIO---------------------------------------*/
 
@@ -352,8 +355,6 @@ margin-left: 30px;
 }
 .portfolio-item{
     background-color: var(--fourth-background-color);
-    border-bottom: 1px solid #EEEEEE;
-
     flex-basis: calc(100% / 3 - 30px);
     margin-top: 30px;
     margin-left: 30px;
@@ -407,11 +408,13 @@ margin-left: 30px;
 .nav-list {
     display: flex;
     justify-content: center;
-}
 
-.portfolio-nav {
     margin-bottom: 50px;
 }
+
 .portfolio-content {
     padding: 20px 24px;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
 }
