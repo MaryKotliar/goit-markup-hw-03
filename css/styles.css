@@ -333,10 +333,13 @@ margin-left: 30px;
 .tel-link:hover {
     color: var(--accent-colour);
 }
-.footer-mail, .footer-tel {
+.footer-tel {
     margin-top: 9px;
 }
 
+.footer-contact {
+    margin-top: 9px;
+}
 /*----------------------------PORTFOLIO---------------------------------------*/
 
 .portfolio {
